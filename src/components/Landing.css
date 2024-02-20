@@ -1,6 +1,40 @@
 .landing-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
   border: 1px solid black;
   width: 1000px;
   height: 500px;
   border-radius: 10px;
+  background-color: rgb(162, 162, 167);
 }
+
+.landing-window {
+  border: 1px solid black;
+  width: 950px;
+  height: 450px;
+  border-radius: 10px;
+  background: rgba(226,226,222,1); /*TODO: Adjust theme colors later */
+}
+
+.window-buttons {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0 0 0 10px;
+}
+
+.dot-exit, .dot-min, .dot-max {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 2px 0 0; 
+}
+
+.dot-exit { background-color: rgb(255, 49, 38);}
+.dot-min { background-color: rgb(245, 194, 0);}
+.dot-max { background-color: rgb(30, 195, 55);}
