@@ -1,0 +1,7 @@
+.toolbar-header-wrapper {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  border: 1px solid black;
+  background-color: rgb(162, 162, 167);
+}
