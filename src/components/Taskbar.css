@@ -1,0 +1,8 @@
+.taskbar-wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  width: 65%;
+  height: 100px;
+  background-color: rgb(162, 162, 167);
+}
