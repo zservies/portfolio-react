@@ -13,6 +13,8 @@
 }
 
 .landing-window {
+  display: flex;
+  justify-content: center;
   border: 1px solid black;
   width: 950px;
   height: 450px;
