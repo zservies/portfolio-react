@@ -1,5 +1,8 @@
 {
-  "landing": {
-    "name": "Zach Servies"
+  "name": "Zach Servies",
+  "landing": {},
+  "toolbar": {
+    "file": "File",
+    "edit": "Edit"
   }
 }

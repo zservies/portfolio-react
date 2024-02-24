@@ -1,7 +1,36 @@
 .toolbar-header-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   min-width: 100%;
   border: 1px solid black;
   background-color: rgb(162, 162, 167);
+  max-height: 24px;
+  font-weight: bold;
+}
+
+.toolbar-about {
+  border: 1px solid red;
+  margin-left: 5px;
+}
+
+.toolbar-date-time {
+  border: 1px solid red;
+}
+
+.toolbar-icon {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: black;
+}
+
+/* TODO: These probably should become buttons and need hover/click? effects. */
+.toolbar-name, .toolbar-icon, .toolbar-file, .toolbar-edit, .toolbar-date, .toolbar-time {
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+}
+
+.toolbar-file, .toolbar-edit {
+  font-weight: normal;
 }
