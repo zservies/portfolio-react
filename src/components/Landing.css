@@ -1,6 +1,5 @@
 .landing-wrapper {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
@@ -8,7 +7,7 @@
   width: 1000px;
   height: 500px;
   border-radius: 10px;
-  background-color: rgb(162, 162, 167);
+  background-color: rgb(162, 162, 167, 0.7);
   box-shadow: 5px 5px 5px grey;
 }
 
@@ -21,7 +20,16 @@
   width: 950px;
   height: 450px;
   border-radius: 10px;
-  background: rgba(226,226,222,1); /*TODO: Adjust theme colors later */
+  background: rgba(226,226,222); /*TODO: Adjust theme colors later */
+}
+
+.landing-title-wrapper {
+  display: flex;
+  font-weight: 600;
+}
+
+.landing-settings-icon, .landing-title {
+  margin: 0 2px 0 2px;
 }
 
 .landing-name, .landing-about {

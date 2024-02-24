@@ -5,6 +5,10 @@ export default function Landing() {
   const { t } = useTranslation();
   return (
     <div className="landing-wrapper">
+      <div className="landing-title-wrapper">
+        <span className="material-symbols-outlined landing-settings-icon">settings</span>
+        <span className="landing-title">{t('landing.title')}</span>
+      </div>
       <div className="window-buttons">
         <button className="dot-exit"></button>
         <button className="dot-min"></button>
