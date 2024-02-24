@@ -3,18 +3,16 @@
   justify-content: space-between;
   min-width: 100%;
   border: 1px solid black;
-  background-color: rgb(162, 162, 167);
+  background-color: rgb(162, 162, 167, 0.5);
   max-height: 24px;
   font-weight: bold;
 }
 
 .toolbar-about {
-  border: 1px solid red;
   margin-left: 5px;
 }
 
 .toolbar-date-time {
-  border: 1px solid red;
   margin-right: 5px;
 }
 
@@ -28,7 +26,7 @@
 
 /* TODO: These probably should become buttons and need hover/click? effects. */
 .toolbar-name, .toolbar-icon, .toolbar-file, .toolbar-edit {
-  margin: 0 10px 0 10px;
+  margin: 0 5px 0 5px;
   cursor: pointer;
 }
 

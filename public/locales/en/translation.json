@@ -1,6 +1,8 @@
 {
   "name": "Zach Servies",
-  "landing": {},
+  "landing": {
+    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta reprehenderit id facere voluptatem! Ipsum numquam blanditiis doloribus veniam fugit quam assumenda magnam dignissimos nihil labore distinctio, dolor eligendi quod ad quas ex aliquam vitae voluptatum at sunt accusantium libero exercitationem. Ab molestiae minus veniam iste! Cupiditate molestias consectetur assumenda?"
+  },
   "toolbar": {
     "file": "File",
     "edit": "Edit"

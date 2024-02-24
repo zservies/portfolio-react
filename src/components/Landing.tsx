@@ -11,7 +11,12 @@ export default function Landing() {
         <button className="dot-max"></button>
       </div>
       <div className="landing-window">
-        <h1>{t('name')}</h1>
+        <div className="landing-name">
+          <h1>{t('name')}</h1>
+        </div>
+        <div className="landing-about">
+          <p>{t('landing.about')}</p>
+        </div>
       </div>
     </div>
   )

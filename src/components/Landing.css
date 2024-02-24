@@ -14,12 +14,22 @@
 
 .landing-window {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   border: 1px solid black;
   width: 950px;
   height: 450px;
   border-radius: 10px;
   background: rgba(226,226,222,1); /*TODO: Adjust theme colors later */
+}
+
+.landing-name, .landing-about {
+  margin: 0 25px 0 25px;
+}
+
+.landing-about {
+  font-size: 20px;
 }
 
 .window-buttons {
