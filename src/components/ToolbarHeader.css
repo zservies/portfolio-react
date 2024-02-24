@@ -15,6 +15,7 @@
 
 .toolbar-date-time {
   border: 1px solid red;
+  margin-right: 5px;
 }
 
 .toolbar-icon {
@@ -26,11 +27,15 @@
 }
 
 /* TODO: These probably should become buttons and need hover/click? effects. */
-.toolbar-name, .toolbar-icon, .toolbar-file, .toolbar-edit, .toolbar-date, .toolbar-time {
+.toolbar-name, .toolbar-icon, .toolbar-file, .toolbar-edit {
   margin: 0 10px 0 10px;
   cursor: pointer;
 }
 
 .toolbar-file, .toolbar-edit {
   font-weight: normal;
+}
+
+.toolbar-date, .toolbar-time {
+  margin: 0 5px 0 5px;
 }
