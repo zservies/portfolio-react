@@ -6,6 +6,8 @@
   },
   "toolbar": {
     "file": "File",
-    "edit": "Edit"
+    "edit": "Edit",
+    "view": "View",
+    "options": "Options"
   }
 }

@@ -15,7 +15,7 @@ export default function ToolbarHeader() {
   //TODO: Probably can clean this up a bit. Need to remove seconds from time?
   function setCurrentTimeDate() {
     const dateTime = new Date();
-    const localeTime = dateTime.toLocaleTimeString();
+    const localeTime = dateTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit'});
     setTime(localeTime);
     setDate(dateTime.toLocaleDateString(undefined, {
       weekday: 'long',
@@ -32,10 +32,11 @@ export default function ToolbarHeader() {
     <div className="toolbar-header-wrapper">
       <div className="toolbar-about">
         {/* TODO: remove icon placeholder */}
-        <div className="toolbar-icon"></div>
-        <span className="toolbar-name">{t('name')}</span>
-        <span className="toolbar-file">{t('toolbar.file')}</span>
-        <span className="toolbar-edit">{t('toolbar.edit')}</span>
+        <a className="toolbar-icon"></a>
+        <a className="toolbar-name">{t('name')}</a>
+        <a className="toolbar-file">{t('toolbar.file')}</a>
+        <a className="toolbar-edit">{t('toolbar.edit')}</a>
+        <a className="toolbar-options">{t('toolbar.options')}</a>
       </div>
       <div className="empty-flex"></div>
       <div className="toolbar-date-time">

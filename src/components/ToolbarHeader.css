@@ -9,6 +9,8 @@
 }
 
 .toolbar-about {
+  display: flex;
+  align-items: center;
   margin-left: 5px;
 }
 
@@ -25,12 +27,12 @@
 }
 
 /* TODO: These probably should become buttons and need hover/click? effects. */
-.toolbar-name, .toolbar-icon, .toolbar-file, .toolbar-edit {
+.toolbar-name, .toolbar-icon, .toolbar-file, .toolbar-edit, .toolbar-options {
   margin: 0 5px 0 5px;
   cursor: pointer;
 }
 
-.toolbar-file, .toolbar-edit {
+.toolbar-file, .toolbar-edit, .toolbar-options {
   font-weight: normal;
 }
 

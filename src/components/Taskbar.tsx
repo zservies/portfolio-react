@@ -10,6 +10,7 @@ export default function Taskbar() {
       <a className="taskbar-linkedin" href="https://www.linkedin.com/in/zacharyservies/" target="_blank">
         <img src="/assets/LI-In-Bug.png" alt="LinkedIn logo" width="75px" height="75px"/>
       </a>
+      {/* TODO: Probably need to setup a forwarding address to prevent spam potential. */}
       <a className="taskbar-email" href="mailto: zachservies@gmail.com">
         <img src="/assets/email-icon.png" alt="Email" width="75px" height="75px"/>
       </a>
