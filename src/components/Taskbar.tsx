@@ -4,16 +4,16 @@ export default function Taskbar() {
   // TODO: Need to add tooltips/accessibility for these links.
   return (
     <div className="taskbar-wrapper">
-      <a className="taskbar-github">
+      <a className="taskbar-github" href="https://github.com/zservies" target="_blank">
         <img src="/assets/github-mark-white.png" alt="Github logo" width="75px" height="75px" />
       </a>
-      <a className="taskbar-linkedin">
+      <a className="taskbar-linkedin" href="https://www.linkedin.com/in/zacharyservies/" target="_blank">
         <img src="/assets/LI-In-Bug.png" alt="LinkedIn logo" width="75px" height="75px"/>
       </a>
-      <a className="taskbar-email">
+      <a className="taskbar-email" href="mailto: zachservies@gmail.com">
         <img src="/assets/email-icon.png" alt="Email" width="75px" height="75px"/>
       </a>
-      <a className="taskbar-cv-resume">
+      <a className="taskbar-cv-resume" href="/assets/resume_2024_ZacharyServies_no_contacts.pdf" target="_blank">
         <img src="/assets/cv.png" alt="CV" width="75px" height="75px"/>
       </a>
       <a className="taskbar-settings">
