@@ -9,5 +9,9 @@
     "edit": "Edit",
     "view": "View",
     "options": "Options"
+  },
+  "workHistory": {
+    "title": "Experience",
+    "windowTitle": "Employment History"
   }
 }
