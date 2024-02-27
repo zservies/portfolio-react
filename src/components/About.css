@@ -1,0 +1,8 @@
+.about-title-wrapper {
+  display: flex;
+  font-weight: 600;
+}
+
+.about-settings-icon, .about-window-title {
+  margin: 0 2px 0 2px;
+}

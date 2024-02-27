@@ -3,7 +3,7 @@ export interface IWindow {
     height: number,
     width: number
   };
-  title?: string;
+  title?: JSX.Element;
   content?: {
     title?: JSX.Element,
     body?: JSX.Element
