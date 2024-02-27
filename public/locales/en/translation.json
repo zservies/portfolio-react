@@ -13,5 +13,8 @@
   "workHistory": {
     "title": "Experience",
     "windowTitle": "Employment History"
+  },
+  "settings": {
+    "windowTitle": "Settings"
   }
 }

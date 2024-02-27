@@ -12,6 +12,8 @@ export default function Window(props: IWindow) {
     height: height - 50,
     width: width - 50
   };
+
+  // TODO: Need to fire an event of some sort when clicking the window buttons for consuming components to react to.
   return (
     <div className="window-wrapper" style={{ height: `${height}px`, width: `${width}px`}}>
       <div className="window-title-wrapper">
