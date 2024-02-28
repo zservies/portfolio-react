@@ -16,5 +16,12 @@
   },
   "settings": {
     "windowTitle": "Settings"
+  },
+  "taskbar": {
+    "githubTooltip": "Github Profile",
+    "linkedinTooltip": "LinkedIn Profile",
+    "emailTooltip": "Send me an email!",
+    "cvTooltip": "Resume",
+    "settingsTooltip": "Site settings"
   }
 }
