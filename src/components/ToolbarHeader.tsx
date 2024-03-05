@@ -31,8 +31,9 @@ export default function ToolbarHeader() {
   return (
     <div className="toolbar-header-wrapper">
       <div className="toolbar-about">
-        {/* TODO: remove icon placeholder */}
-        <a className="toolbar-icon"></a>
+        <a className="toolbar-icon" href='/'>
+          <img src="/assets/home.png" alt="Home" width="20px" height="20px" />
+        </a>
         <a className="toolbar-name">{t('name')}</a>
         <a className="toolbar-file">{t('toolbar.file')}</a>
         <a className="toolbar-edit">{t('toolbar.edit')}</a>

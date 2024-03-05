@@ -18,7 +18,7 @@ a {
   background-color: transparent
 }
 
-img:hover {
+.taskbar-img:hover {
   border-radius: 10px;
   margin-bottom: 35px;
   cursor: pointer;

@@ -19,14 +19,6 @@
   margin-right: 5px;
 }
 
-.toolbar-icon {
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: black;
-}
-
 /* TODO: These probably should become buttons and need hover/click? effects. */
 .toolbar-name, .toolbar-icon, .toolbar-file, .toolbar-edit, .toolbar-options {
   margin: 0 5px 0 5px;
