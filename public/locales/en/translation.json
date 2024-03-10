@@ -8,7 +8,10 @@
     "file": "File",
     "edit": "Edit",
     "view": "View",
-    "options": "Options"
+    "options": "Options",
+    "about": "About",
+    "work": "Work",
+    "projects": "Projects"
   },
   "workHistory": {
     "title": "Experience",

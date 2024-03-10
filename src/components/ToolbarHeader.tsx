@@ -35,9 +35,9 @@ export default function ToolbarHeader() {
           <img src="/assets/home.png" alt="Home" width="20px" height="20px" />
         </a>
         <a className="toolbar-name">{t('name')}</a>
-        <a className="toolbar-file">{t('toolbar.file')}</a>
-        <a className="toolbar-edit">{t('toolbar.edit')}</a>
-        <a className="toolbar-options">{t('toolbar.options')}</a>
+        <a className="toolbar-file">{t('toolbar.about')}</a>
+        <a className="toolbar-edit">{t('toolbar.work')}</a>
+        <a className="toolbar-options">{t('toolbar.projects')}</a>
       </div>
       <div className="empty-flex"></div>
       <div className="toolbar-date-time">
