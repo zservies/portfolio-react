@@ -15,7 +15,7 @@ export default function About() {
 
   const windowTitle = (
     <div className="about-title-wrapper">
-      <span className="material-symbols-outlined about-settings-icon">settings</span>
+      <span className="material-symbols-outlined">home</span>
       <span className="about-window-title">{t('landing.title')}</span>
     </div>
   );
@@ -26,3 +26,4 @@ export default function About() {
     </div>
   )
 }
+// "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
