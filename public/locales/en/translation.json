@@ -2,7 +2,7 @@
   "name": "Zach Servies",
   "landing": {
     "title": "About Me",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta reprehenderit id facere voluptatem! Ipsum numquam blanditiis doloribus veniam fugit quam assumenda magnam dignissimos nihil labore distinctio, dolor eligendi quod ad quas ex aliquam vitae voluptatum at sunt accusantium libero exercitationem. Ab molestiae minus veniam iste! Cupiditate molestias consectetur assumenda?"
+    "about": "Hey I'm Zach, a software engineer and Purdue alum. My career has been spent writing responsive and performant web applications using all sorts of JavaScript frameworks and libraries, such as ReactJS, Angular, Ember and NodeJS. Most recently I've been working on creating video and softphone applications with WebRTC. Outside of work you can find me on the golf course, listening to pop-punk, behind the wheel of a car, or even behind the handlebars of a motorcyle."
   },
   "toolbar": {
     "file": "File",
