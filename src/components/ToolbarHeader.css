@@ -20,12 +20,14 @@
 }
 
 /* TODO: These probably should become buttons and need hover/click? effects. */
-.toolbar-name, .toolbar-icon, .toolbar-file, .toolbar-edit, .toolbar-options {
+.toolbar-name, .toolbar-icon, .toolbar-item {
   margin: 0 5px 0 5px;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
-.toolbar-file, .toolbar-edit, .toolbar-options {
+.toolbar-item, .toolbar-item {
   font-weight: normal;
 }
 

@@ -34,10 +34,10 @@ export default function ToolbarHeader() {
         <a className="toolbar-icon" href='/'>
           <img src="/assets/home.png" alt="Home" width="20px" height="20px" />
         </a>
-        <a className="toolbar-name">{t('name')}</a>
-        <a className="toolbar-file">{t('toolbar.about')}</a>
-        <a className="toolbar-edit">{t('toolbar.work')}</a>
-        <a className="toolbar-options">{t('toolbar.projects')}</a>
+        <a className="toolbar-name" href='/'>{t('name')}</a>
+        <a className="toolbar-item" href='/'>{t('toolbar.about')}</a>
+        <a className="toolbar-item" href='/work'>{t('toolbar.work')}</a>
+        <a className="toolbar-item" href='/projects'>{t('toolbar.projects')}</a>
       </div>
       <div className="empty-flex"></div>
       <div className="toolbar-date-time">
