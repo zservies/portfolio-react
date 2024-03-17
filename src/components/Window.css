@@ -32,7 +32,7 @@
 }
 
 .window-content-title, .window-content-body {
-  margin: 0 25px 0 25px;
+  padding:  25px;
 }
 
 .window-content-body {
@@ -46,6 +46,10 @@
   display: inline-block;
   cursor: pointer;
   margin: 0 2px 0 0; 
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
 }
 
 .dot-exit { background-color: rgb(255, 49, 38);}
