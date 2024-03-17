@@ -15,7 +15,15 @@
   },
   "workHistory": {
     "title": "Experience",
-    "windowTitle": "Employment History"
+    "windowTitle": "Employment History",
+    "genesys": "Genesys",
+    "genesysSeniorDesc": "Build and maintain Genesys' video and phone conferencing applications. Owner and primary contributor to several open-source libraries that allow customers to integrate Genesys' media solutions into their own custom applications. Lead the cross-team collaborative effort to develop several media features such as device profiles and custom ringtones. Designed and developed a fully functional demo application of our own open-source WebRTC SDK.",
+    "genesysSoftDesc": "Build internal ReactJS application to query and parse WebRTC events into a timeline used to diagnose issues with softphone and video calls. Created a fully functional proof of concept video conferencing solution. Migrated video application to in-house component library. Optimized statistic gathering within WebRTC services.",
+    "sogeti": "Sogeti",
+    "sogetiSoftDesc": "Primary contributor in cross-team effort to develop a reusable library of Angular UI components. Developed web application for displaying, fetching, and storing dealership vehicle data. Refactored several user interfaces to be responsive and accessible on mobile devices and small screen sizes.",
+    "senior": "Senior Software Engineer",
+    "soft": "Software Engineer",
+    "resume": "Open my resume to learn more by clicking here!"
   },
   "settings": {
     "windowTitle": "Settings"

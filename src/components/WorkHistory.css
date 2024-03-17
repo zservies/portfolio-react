@@ -1,0 +1,41 @@
+.work-history-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
+
+.work-company {
+  padding-top: 10px;
+}
+.work-title {
+  padding: 5px 0 10px 10px;
+}
+
+.work-desc {
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+.work-date {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.work-resume-link {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin: 0
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+a:active {
+  opacity: .5;
+}

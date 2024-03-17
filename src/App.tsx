@@ -1,4 +1,3 @@
-import Landing from './components/Landing';
 import ToolbarHeader from './components/ToolbarHeader';
 import Taskbar from './components/Taskbar';
 import WorkHistory from './components/WorkHistory';
@@ -12,7 +11,6 @@ function App() {
   const landing: JSX.Element =(<>
           <div className="app-windows">
           <About></About>
-          <Landing></Landing>
         </div>
         </>);
 
@@ -22,6 +20,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={landing}/>
+          <Route path="/work" element={<WorkHistory />}/>
           <Route path="settings" element={<Settings />}/>
         </Routes>
       </BrowserRouter>

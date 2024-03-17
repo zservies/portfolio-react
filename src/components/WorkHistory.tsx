@@ -9,17 +9,27 @@ export default function WorkHistory() {
     width: 750
   };
   const employmentList = 
-  <ul>
-    <li>
-      <h4>Item 1</h4>
-    </li>
-    <li>
-      <h4>Item 2</h4>
-    </li>
-    <li>
-      <h4>Item 3</h4>
-    </li>
-  </ul>;
+  <div className="work-history-wrapper">
+    <div className="work-details">
+      <h3 className="work-company">{t('workHistory.genesys')}</h3>
+      <div>
+        <h4 className="work-title">{t('workHistory.senior')}</h4>
+        <p className="work-desc">{t('workHistory.genesysSeniorDesc')}</p>
+      </div>
+      <div>
+        <h4 className="work-title">{t('workHistory.soft')}</h4>
+        <p className="work-desc">{t('workHistory.genesysSoftDesc')}</p>
+      </div>
+    </div>
+    <div className="work-details">
+      <h3 className="work-company">{t('workHistory.sogeti')}</h3>
+      <div>
+        <h4 className="work-title">{t('workHistory.soft')}</h4>
+        <p className="work-desc">{t('workHistory.sogetiSoftDesc')}</p>
+      </div>
+    </div>
+    <a className="work-resume-link work-desc" href="/assets/resume_2024_ZacharyServies_no_contacts.pdf" target="_blank" title={t('taskbar.cvTooltip')}>{t('workHistory.resume')}</a>
+  </div>
   const content = {
     title: <h1>{t('workHistory.title')}</h1>,
     body: employmentList
