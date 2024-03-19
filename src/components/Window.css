@@ -36,7 +36,6 @@
 }
 
 .window-content-body {
-  box-sizing: border-box;
   width: 100%;
   font-size: 20px;
   overflow: auto;

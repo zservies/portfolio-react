@@ -1,7 +1,6 @@
 .work-history-wrapper {
   display: flex;
   justify-content: flex-start;
-  box-sizing: border-box;
   flex-shrink: 1;
   flex-wrap: wrap;
 }
