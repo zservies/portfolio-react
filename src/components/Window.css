@@ -51,10 +51,6 @@
   margin: 0 2px 0 0; 
 }
 
-h1, h2, h3, h4, p {
-  margin: 0;
-}
-
 .dot-exit { background-color: rgb(255, 49, 38);}
 .dot-min { background-color: rgb(245, 194, 0);}
 .dot-max { background-color: rgb(30, 195, 55);}

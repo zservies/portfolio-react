@@ -9,8 +9,8 @@ export default function About() {
     width: 1000
   };
   const content = {
-    title: <h1>{t('name')}</h1>,
-    body: <p>{t('landing.about')}</p>
+    title: <h1 className="about-name">{t('name')}</h1>,
+    body: <p className="about-body">{t('landing.about')}</p>
   };
 
   const windowTitle = (
