@@ -34,10 +34,15 @@ export default function WorkHistory() {
     title: <h1>{t('workHistory.title')}</h1>,
     body: employmentList
   };
-
+  const windowTitle = (
+    <div className="work-title-wrapper">
+      <span className="material-symbols-outlined">work</span>
+      <span className="work-window-title">{t('workHistory.title')}</span>
+    </div>
+  );
 
   
   return (
-    <Window content={content} size={workHistorySize} title={t('workHistory.windowTitle')}></Window>
+    <Window content={content} size={workHistorySize} title={windowTitle}></Window>
   )
 }

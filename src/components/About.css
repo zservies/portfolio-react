@@ -3,6 +3,6 @@
   font-weight: 600;
 }
 
-.about-settings-icon, .about-window-title {
-  margin: 0 2px 0 2px;
+.about-window-title {
+  padding: 0 2px 0 2px;
 }

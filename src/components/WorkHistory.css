@@ -38,3 +38,12 @@ a:hover {
 a:active {
   opacity: .5;
 }
+
+.work-title-wrapper {
+  display: flex;
+  font-weight: 600;
+}
+
+.work-window-title {
+  padding: 0 2px 0 2px;
+}
