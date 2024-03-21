@@ -1,3 +1,24 @@
 .settings-wrapper {
-  
+  display: flex;
+  justify-content: center;
+}
+.assets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.asset-link {
+  text-decoration: none;
+  color: black;
+}
+
+.asset-link:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.asset-link:active {
+  opacity: 0.5;
 }

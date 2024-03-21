@@ -12,7 +12,6 @@ export default function ToolbarHeader() {
     setCurrentTimeDate();
   }, [])
 
-  //TODO: Probably can clean this up a bit. Need to remove seconds from time?
   function setCurrentTimeDate() {
     const dateTime = new Date();
     const localeTime = dateTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit'});
