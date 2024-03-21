@@ -31,11 +31,11 @@
   margin: 0
 }
 
-a:hover {
+.work-resume-link:hover {
   cursor: pointer;
   opacity: .7;
 }
-a:active {
+.work-resume-link:active {
   opacity: .5;
 }
 
