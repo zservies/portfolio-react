@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={landing}/>
-          <Route path="/work" element={<WorkHistory />}/>
+          <Route path="work" element={<WorkHistory />}/>
           <Route path="settings" element={<Settings />}/>
         </Routes>
       </BrowserRouter>

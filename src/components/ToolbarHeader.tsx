@@ -36,8 +36,9 @@ export default function ToolbarHeader() {
         </a>
         <a className="toolbar-name" href='/'>{t('name')}</a>
         <a className="toolbar-item" href='/'>{t('toolbar.about')}</a>
-        <a className="toolbar-item" href='/work'>{t('toolbar.work')}</a>
-        <a className="toolbar-item" href='/projects'>{t('toolbar.projects')}</a>
+        <a className="toolbar-item" href='work'>{t('toolbar.work')}</a>
+        <a className="toolbar-item" href='projects'>{t('toolbar.projects')}</a>
+        <a className="toolbar-item" href='settings'>{t('toolbar.settings')}</a>
       </div>
       <div className="empty-flex"></div>
       <div className="toolbar-date-time">

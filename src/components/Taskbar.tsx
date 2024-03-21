@@ -19,7 +19,7 @@ export default function Taskbar() {
       <a className="taskbar-cv-resume" href="/assets/resume_2024_ZacharyServies_no_contacts.pdf" target="_blank" title={t('taskbar.cvTooltip')}>
         <img className="taskbar-img" src="/assets/cv.png" alt="CV" width="75px" height="75px"/>
       </a>
-      <a className="taskbar-settings" title={t('taskbar.settingsTooltip')}>
+      <a className="taskbar-settings" title={t('taskbar.settingsTooltip')} href='settings'>
         <img className="taskbar-img" src="/assets/settings.png" alt="Settings" width="75px" height="75px"/>
       </a>
 

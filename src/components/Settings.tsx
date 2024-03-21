@@ -15,7 +15,7 @@ export default function Settings() {
   const windowTitle = (
     <div className="about-title-wrapper">
       <span className="material-symbols-outlined about-settings-icon">settings</span>
-      <span className="about-window-title">{t('landing.title')}</span>
+      <span className="about-window-title">{t('settings.windowTitle')}</span>
     </div>
   );
   return (
