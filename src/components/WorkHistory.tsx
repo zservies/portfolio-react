@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 export default function WorkHistory() {
   const { t } = useTranslation();
   const workHistorySize = {
-    height: 800,
+    height: 700,
     width: 750
   };
   const employmentList = 
