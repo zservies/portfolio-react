@@ -28,7 +28,7 @@ export default function WorkHistory() {
         <p className="work-desc">{t('workHistory.sogetiSoftDesc')}</p>
       </div>
     </div>
-    <a className="work-resume-link work-desc" href="/assets/resume_2024_ZacharyServies_no_contacts.pdf" target="_blank" title={t('taskbar.cvTooltip')}>{t('workHistory.resume')}</a>
+    <a className="work-resume-link work-desc" href="/assets/Zachary_Servies_2025_Resume.pdf" target="_blank" title={t('taskbar.cvTooltip')}>{t('workHistory.resume')}</a>
   </div>
   const content = {
     title: <h1>{t('workHistory.title')}</h1>,

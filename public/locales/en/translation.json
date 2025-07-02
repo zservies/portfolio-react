@@ -2,7 +2,7 @@
   "name": "Zach Servies",
   "landing": {
     "title": "About Me",
-    "about": "Hey I'm Zach, a software engineer and Purdue alum. My career has been spent writing responsive and performant web applications using all sorts of JavaScript frameworks and libraries, such as ReactJS, Angular, Ember and NodeJS. Most recently I've been working on creating video and softphone applications with WebRTC.",
+    "about": "Hey I'm Zach, a software engineer and Purdue alum. My career has been spent writing responsive and performant web applications using all sorts of JavaScript frameworks and libraries, such as ReactJS, Angular, Ember and NodeJS. Most recently I've been working on creating video and softphone WebRTC applications!",
     "aboutHobbies": "Outside of work you can find me on the golf course, listening to pop-punk, behind the wheel of a car, or even behind the handlebars of a motorcyle."
   },
   "toolbar": {
