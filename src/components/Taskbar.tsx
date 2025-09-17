@@ -15,7 +15,7 @@ export default function Taskbar() {
       <a className="taskbar-email" href="mailto: zachservies@gmail.com" title={t('taskbar.emailTooltip')}>
         <img className="taskbar-img" src="/assets/email-icon.png" alt="Email" width="75px" height="75px"/>
       </a>
-      <a className="taskbar-cv-resume" href="/assets/Zachary_Servies_2025_Resume.pdf" target="_blank" title={t('taskbar.cvTooltip')}>
+      <a className="taskbar-cv-resume" href="/assets/resume_2025_Zachary_Servies.pdf" target="_blank" title={t('taskbar.cvTooltip')}>
         <img className="taskbar-img" src="/assets/cv.png" alt="CV/Resume" width="75px" height="75px"/>
       </a>
       <a className="taskbar-settings" title={t('taskbar.settingsTooltip')} href='settings'>
